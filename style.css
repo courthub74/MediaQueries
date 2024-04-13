@@ -29,22 +29,50 @@
     text-align: center;
     color: white;
   }
-  .section_two .square {
+  .section_two .title_and_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 3em;
+    margin: -2em 0 0 0;
+  }
+  .section_two .title_and_nav .two_desktop_nav {
+    display: none;
+  }
+  .section_two .title_and_nav .mobile_nav #dots_menu {
+    width: 3em;
+  }
+  .section_two .title_and_nav .two_title {
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+  .section_two .two_squares {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    width: 100%;
+    height: 80%;
+    margin: -5ch 0 0 0;
+  }
+  .section_two .two_squares .square {
     background-color: gray;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 75%;
-    height: 15%;
+    height: 25%;
   }
-  .section_two .square #first_one {
+  .section_two .two_squares .square #first_one {
     width: 5em;
   }
-  .section_two .square #r1 {
+  .section_two .two_squares .square #r1 {
     width: 3em;
   }
-  .section_two .square #mps {
+  .section_two .two_squares .square #mps {
     width: 6em;
   }
   .section_three {
@@ -410,25 +438,60 @@
     font-size: 1rem;
     font-family: "Courier New", Courier, monospace;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 2em;
     text-align: center;
     color: white;
   }
-  .section_two .square {
-    background-color: gray;
+  .section_two .title_and_nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 85%;
+  }
+  .section_two .title_and_nav .two_desktop_nav ul {
+    display: flex;
+    gap: 1em;
+  }
+  .section_two .title_and_nav .two_desktop_nav ul li {
+    list-style: none;
+  }
+  .section_two .title_and_nav .two_desktop_nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  .section_two .title_and_nav .mobile_nav {
+    display: none;
+  }
+  .section_two .title_and_nav .two_title {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .section_two .two_squares {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6em;
+    height: 80%;
+    width: 85%;
+    margin-top: -7ch;
+  }
+  .section_two .two_squares .square {
+    background-color: grey;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 25%;
-    height: 55%;
+    height: 75%;
   }
-  .section_two .square #r1 {
+  .section_two .two_squares .square #r1 {
     width: 5em;
   }
-  .section_two .square #mps {
+  .section_two .two_squares .square #mps {
     width: 7em;
   }
   .section_three {
@@ -498,25 +561,60 @@
     font-size: 1rem;
     font-family: "Courier New", Courier, monospace;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 2em;
     text-align: center;
     color: white;
   }
-  .section_two .square {
-    background-color: gray;
+  .section_two .title_and_nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 85%;
+  }
+  .section_two .title_and_nav .two_desktop_nav ul {
+    display: flex;
+    gap: 1em;
+  }
+  .section_two .title_and_nav .two_desktop_nav ul li {
+    list-style: none;
+  }
+  .section_two .title_and_nav .two_desktop_nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  .section_two .title_and_nav .mobile_nav {
+    display: none;
+  }
+  .section_two .title_and_nav .two_title {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .section_two .two_squares {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6em;
+    height: 80%;
+    width: 85%;
+    margin-top: -7ch;
+  }
+  .section_two .two_squares .square {
+    background-color: grey;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 25%;
-    height: 55%;
+    height: 75%;
   }
-  .section_two .square #r1 {
+  .section_two .two_squares .square #r1 {
     width: 5em;
   }
-  .section_two .square #mps {
+  .section_two .two_squares .square #mps {
     width: 7em;
   }
   .section_three {
@@ -581,30 +679,64 @@
   }
   .section_two {
     background-color: darkblue;
-    height: 100vh;
+    height: 105vh;
     width: 100%;
     font-size: 1rem;
     font-family: "Courier New", Courier, monospace;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2em;
     text-align: center;
     color: white;
   }
-  .section_two .square {
-    background-color: gray;
+  .section_two .title_and_nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 85%;
+  }
+  .section_two .title_and_nav .two_desktop_nav ul {
+    display: flex;
+    gap: 1em;
+  }
+  .section_two .title_and_nav .two_desktop_nav ul li {
+    list-style: none;
+  }
+  .section_two .title_and_nav .two_desktop_nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  .section_two .title_and_nav .mobile_nav {
+    display: none;
+  }
+  .section_two .title_and_nav .two_title {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .section_two .two_squares {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6em;
+    height: 80%;
+    width: 85%;
+    margin-top: -7ch;
+  }
+  .section_two .two_squares .square {
+    background-color: grey;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 25%;
-    height: 55%;
+    height: 75%;
   }
-  .section_two .square #r1 {
+  .section_two .two_squares .square #r1 {
     width: 5em;
   }
-  .section_two .square #mps {
+  .section_two .two_squares .square #mps {
     width: 7em;
   }
   .section_three {
@@ -627,6 +759,8 @@
     align-items: center;
     width: 25%;
     height: 35%;
+    width: 24vw;
+    height: 24vw;
     border-radius: 50%;
   }
   .section_three .circle .inner_circle {
@@ -634,8 +768,8 @@
     justify-content: center;
     align-items: center;
     background-color: darkblue;
-    width: 80%;
-    height: 80%;
+    width: 23vw;
+    height: 23vw;
     border-radius: 50%;
   }
 }/*# sourceMappingURL=style.css.map */

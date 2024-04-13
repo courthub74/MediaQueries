@@ -33,22 +33,56 @@
         gap: 4em;
         text-align: center;
         color: white;
-        .square {
-            background-color: gray;
-            border-radius: 10px;
+        .title_and_nav {
             display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row-reverse;
+            gap: 3em;
+            margin: -2em 0 0 0;
+            // Desktop Nav
+            .two_desktop_nav {
+                display: none;
+            }
+            // Mobile Nav
+            .mobile_nav {
+                #dots_menu {
+                    width: 3em;
+                }
+            }
+            // Title
+            .two_title {
+                font-size: 1.6rem;
+                font-weight: bold;
+            }
+        }
+        .two_squares {
+            display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            width: 75%;
-            height: 15%;
-            #first_one {
-                width: 5em;
-            }
-            #r1 {
-                width: 3em;
-            }
-            #mps {
-                width: 6em;
+            gap: 2em;
+            // background-color: aqua;
+            width: 100%;
+            height: 80%;
+            margin: -5ch 0 0 0;
+            .square {
+                background-color: gray;
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 75%;
+                height: 25%;
+                #first_one {
+                    width: 5em;
+                }
+                #r1 {
+                    width: 3em;
+                }
+                #mps {
+                    width: 6em;
+                }
             }
         }
     }
@@ -448,27 +482,71 @@
         font-size: 1rem;
         font-family: 'Courier New', Courier, monospace;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 2em;
         text-align: center;
         color: white;
-        .square {
-            background-color: gray;
-            border-radius: 10px;
+        // Title and Menus
+        .title_and_nav {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row-reverse;
+            align-items: center;
+            // gap: 25em;
+            width: 85%;
+            // Desktop Nav
+            .two_desktop_nav {
+                ul {
+                    display: flex;
+                    gap: 1em;
+                    li {
+                        list-style: none;
+                        a {
+                            color: white;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+            // Mobile Nav
+            .mobile_nav {
+                display: none;
+            }
+            // Title
+            .two_title {
+                font-size: 3rem;
+                font-weight: bold;
+            }
+        }
+        // The Squares
+        .two_squares {
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 25%;
-            height: 55%;
-            // #first_one {
-
-            // }
-            #r1 {
-                width: 5em;
-            }
-            #mps {
-                width: 7em;
+            gap: 6em;
+            // background-color: aqua;
+            height: 80%;
+            width: 85%;
+            margin-top: -7ch;
+            .square {
+                background-color: grey;
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 25%;
+                height: 75%;
+                // #first_one {
+    
+                // }
+                #r1 {
+                    width: 5em;
+                }
+                #mps {
+                    width: 7em;
+                }
             }
         }
     }
@@ -547,27 +625,71 @@
         font-size: 1rem;
         font-family: 'Courier New', Courier, monospace;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 2em;
         text-align: center;
         color: white;
-        .square {
-            background-color: gray;
-            border-radius: 10px;
+        // Title and Menus
+        .title_and_nav {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row-reverse;
+            align-items: center;
+            // gap: 25em;
+            width: 85%;
+            // Desktop Nav
+            .two_desktop_nav {
+                ul {
+                    display: flex;
+                    gap: 1em;
+                    li {
+                        list-style: none;
+                        a {
+                            color: white;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+            // Mobile Nav
+            .mobile_nav {
+                display: none;
+            }
+            // Title
+            .two_title {
+                font-size: 3rem;
+                font-weight: bold;
+            }
+        }
+        // The Squares
+        .two_squares {
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 25%;
-            height: 55%;
-            // #first_one {
-
-            // }
-            #r1 {
-                width: 5em;
-            }
-            #mps {
-                width: 7em;
+            gap: 6em;
+            // background-color: aqua;
+            height: 80%;
+            width: 85%;
+            margin-top: -7ch;
+            .square {
+                background-color: grey;
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 25%;
+                height: 75%;
+                // #first_one {
+    
+                // }
+                #r1 {
+                    width: 5em;
+                }
+                #mps {
+                    width: 7em;
+                }
             }
         }
     }
@@ -641,32 +763,76 @@
     .section_two {
         background-color: darkblue;
         // background-color: yellow;
-        height: 100vh;
+        height: 105vh;
         width: 100%;
         font-size: 1rem;
         font-family: 'Courier New', Courier, monospace;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 2em;
+        // gap: 5em;
         text-align: center;
         color: white;
-        .square {
-            background-color: gray;
-            border-radius: 10px;
+        // Title and Menus
+        .title_and_nav {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row-reverse;
+            align-items: center;
+            // gap: 25em;
+            width: 85%;
+            // Desktop Nav
+            .two_desktop_nav {
+                ul {
+                    display: flex;
+                    gap: 1em;
+                    li {
+                        list-style: none;
+                        a {
+                            color: white;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+            // Mobile Nav
+            .mobile_nav {
+                display: none;
+            }
+            // Title
+            .two_title {
+                font-size: 3rem;
+                font-weight: bold;
+            }
+        }
+        // The Squares
+        .two_squares {
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 25%;
-            height: 55%;
-            // #first_one {
-
-            // }
-            #r1 {
-                width: 5em;
-            }
-            #mps {
-                width: 7em;
+            gap: 6em;
+            // background-color: aqua;
+            height: 80%;
+            width: 85%;
+            margin-top: -7ch;
+            .square {
+                background-color: grey;
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 25%;
+                height: 75%;
+                // #first_one {
+    
+                // }
+                #r1 {
+                    width: 5em;
+                }
+                #mps {
+                    width: 7em;
+                }
             }
         }
     }
@@ -690,14 +856,16 @@
             align-items: center;
             width: 25%;
             height: 35%;
+            width: 24vw;
+            height: 24vw;
             border-radius: 50%;
             .inner_circle {
                 display: flex;
-            justify-content: center;
-            align-items: center;
+                justify-content: center;
+                align-items: center;
                 background-color: darkblue;
-                width: 80%;
-                height: 80%;
+                width: 23vw;
+                height: 23vw;
                 border-radius: 50%;
 
             }
