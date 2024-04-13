@@ -240,8 +240,8 @@
             border-radius: 50%;
             .inner_circle {
                 display: flex;
-            justify-content: center;
-            align-items: center;
+                justify-content: center;
+                align-items: center;
                 background-color: darkblue;
                 width: 80%;
                 height: 80%;
@@ -490,8 +490,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 55%;
-            height: 25%;
+            width: 25%;
+            height: 35%;
             border-radius: 50%;
             .inner_circle {
                 display: flex;
@@ -539,6 +539,71 @@
             }
         }
     }
+    .section_two {
+        background-color: darkblue;
+        // background-color: yellow;
+        height: 100vh;
+        width: 100%;
+        font-size: 1rem;
+        font-family: 'Courier New', Courier, monospace;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+        text-align: center;
+        color: white;
+        .square {
+            background-color: gray;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 25%;
+            height: 55%;
+            // #first_one {
+
+            // }
+            #r1 {
+                width: 5em;
+            }
+            #mps {
+                width: 7em;
+            }
+        }
+    }
+    .section_three {
+        background-color: rgb(6, 46, 6);
+        height: 100vh;
+        width: 100%;
+        font-size: 1rem;
+        font-family: 'Courier New', Courier, monospace;
+        display: flex;
+        // flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+        text-align: center;
+        color: white;
+        .circle {
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 25%;
+            height: 35%;
+            border-radius: 50%;
+            .inner_circle {
+                display: flex;
+            justify-content: center;
+            align-items: center;
+                background-color: darkblue;
+                width: 80%;
+                height: 80%;
+                border-radius: 50%;
+
+            }
+        }
+    }
 }
 
 // 1900
@@ -570,6 +635,71 @@
             }
             #mps {
                 width: 7em;
+            }
+        }
+    }
+    .section_two {
+        background-color: darkblue;
+        // background-color: yellow;
+        height: 100vh;
+        width: 100%;
+        font-size: 1rem;
+        font-family: 'Courier New', Courier, monospace;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+        text-align: center;
+        color: white;
+        .square {
+            background-color: gray;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 25%;
+            height: 55%;
+            // #first_one {
+
+            // }
+            #r1 {
+                width: 5em;
+            }
+            #mps {
+                width: 7em;
+            }
+        }
+    }
+    .section_three {
+        background-color: rgb(6, 46, 6);
+        height: 100vh;
+        width: 100%;
+        font-size: 1rem;
+        font-family: 'Courier New', Courier, monospace;
+        display: flex;
+        // flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+        text-align: center;
+        color: white;
+        .circle {
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 25%;
+            height: 35%;
+            border-radius: 50%;
+            .inner_circle {
+                display: flex;
+            justify-content: center;
+            align-items: center;
+                background-color: darkblue;
+                width: 80%;
+                height: 80%;
+                border-radius: 50%;
+
             }
         }
     }

@@ -449,8 +449,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 55%;
-    height: 25%;
+    width: 25%;
+    height: 35%;
     border-radius: 50%;
   }
   .section_three .circle .inner_circle {
@@ -491,6 +491,65 @@
   .section_one .square #mps {
     width: 7em;
   }
+  .section_two {
+    background-color: darkblue;
+    height: 100vh;
+    width: 100%;
+    font-size: 1rem;
+    font-family: "Courier New", Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    text-align: center;
+    color: white;
+  }
+  .section_two .square {
+    background-color: gray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 55%;
+  }
+  .section_two .square #r1 {
+    width: 5em;
+  }
+  .section_two .square #mps {
+    width: 7em;
+  }
+  .section_three {
+    background-color: rgb(6, 46, 6);
+    height: 100vh;
+    width: 100%;
+    font-size: 1rem;
+    font-family: "Courier New", Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    text-align: center;
+    color: white;
+  }
+  .section_three .circle {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 35%;
+    border-radius: 50%;
+  }
+  .section_three .circle .inner_circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+  }
 }
 @media only screen and (min-width: 1900px) {
   .section_one {
@@ -519,5 +578,64 @@
   }
   .section_one .square #mps {
     width: 7em;
+  }
+  .section_two {
+    background-color: darkblue;
+    height: 100vh;
+    width: 100%;
+    font-size: 1rem;
+    font-family: "Courier New", Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    text-align: center;
+    color: white;
+  }
+  .section_two .square {
+    background-color: gray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 55%;
+  }
+  .section_two .square #r1 {
+    width: 5em;
+  }
+  .section_two .square #mps {
+    width: 7em;
+  }
+  .section_three {
+    background-color: rgb(6, 46, 6);
+    height: 100vh;
+    width: 100%;
+    font-size: 1rem;
+    font-family: "Courier New", Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    text-align: center;
+    color: white;
+  }
+  .section_three .circle {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 35%;
+    border-radius: 50%;
+  }
+  .section_three .circle .inner_circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
   }
 }/*# sourceMappingURL=style.css.map */
