@@ -129,28 +129,56 @@
     font-size: 1rem;
     font-family: "Courier New", Courier, monospace;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 2em;
     text-align: center;
     color: white;
   }
-  .section_two .square {
-    background-color: gray;
+  .section_two .title_and_nav {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0ch 0 0 0;
+  }
+  .section_two .title_and_nav .two_desktop_nav {
+    display: none;
+  }
+  .section_two .title_and_nav .mobile_nav #dots_menu {
+    width: 3em;
+  }
+  .section_two .title_and_nav .two_title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .section_two .two_squares {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+    gap: 2em;
+    margin: -8ch 0 0 0;
+  }
+  .section_two .two_squares .square {
+    background-color: grey;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 25%;
-    height: 75%;
+    height: 65%;
   }
-  .section_two .square #first_one {
+  .section_two .two_squares .square #first_one {
     width: 5em;
   }
-  .section_two .square #r1 {
+  .section_two .two_squares .square #r1 {
     width: 3em;
   }
-  .section_two .square #mps {
+  .section_two .two_squares .square #mps {
     width: 6em;
   }
   .section_three {
