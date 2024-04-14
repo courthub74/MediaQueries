@@ -123,7 +123,7 @@
 
 
 // Landscape Smartphones
-@media (orientation: landscape), (max-width: 719px) {
+@media (orientation: landscape), (min-width: 719px) {
     .section_one {
         background-color: rgb(131, 11, 7);
         height: 100vh;
