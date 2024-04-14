@@ -108,7 +108,7 @@
     border-radius: 50%;
   }
 }
-@media (orientation: landscape) {
+@media (orientation: landscape) and (max-width: 719px) {
   .section_one {
     background-color: rgb(131, 11, 7);
     height: 100vh;
@@ -599,9 +599,7 @@
   .section_two .title_and_nav {
     display: flex;
     justify-content: space-between;
-    flex-direction: row-reverse;
     align-items: center;
-    width: 85%;
   }
   .section_two .title_and_nav .two_desktop_nav ul {
     display: flex;
