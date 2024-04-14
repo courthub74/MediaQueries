@@ -2,7 +2,7 @@
   background-color: black;
 }
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .section_one {
     background-color: darkred;
     height: 100vh;
@@ -108,7 +108,7 @@
     border-radius: 50%;
   }
 }
-@media (orientation: landscape), (min-width: 719px) {
+@media only screen and (orientation: landscape), (min-width: 719px) {
   .section_one {
     background-color: rgb(131, 11, 7);
     height: 100vh;
